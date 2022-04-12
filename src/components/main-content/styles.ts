@@ -4,11 +4,13 @@ const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: calc(100vh - 80px);
 
   .main-content {
     width: 424px;
-    margin-block: 120px 312px;
     display: flex;
+    align-self: flex-start;
+    margin-top: 120px;
     flex-direction: column;
   }
 
@@ -114,14 +116,15 @@ const Container = styled.div`
   @media (max-width: 992px) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     .main-content {
       align-items: center;
+      margin-inline: auto;
       text-align: center;
       margin-bottom: 60px;
       width: fit-content;
-      height: fit-content;
     }
 
     .employment-text {

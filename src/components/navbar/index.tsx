@@ -1,14 +1,14 @@
 import React from 'react'
 import Container from './styles'
 import { MdMarkEmailUnread } from 'react-icons/md'
-import { AiOutlineMenuUnfold } from 'react-icons/ai'
+import Sidebar from './sidebar'
 
 const Navbar = () => {
   return (
     <Container>
       <div className="navbar">
         <div className="nav-menu">
-          <AiOutlineMenuUnfold className="menu-icon" size={30} />
+          <Sidebar />
         </div>
         <div className="nav-title">
           <h3 className="tobias">Tobias </h3>

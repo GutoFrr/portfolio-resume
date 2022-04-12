@@ -38,14 +38,13 @@ const Container = styled.div`
 
   .nav-btns > div {
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 15px;
+    padding: 10px;
     transition: all 0.3s;
 
     :hover {
       background: #4a4cdc;
       color: white;
-      padding: 10px;
-      border: 1px solid #4a4cdc;
       border-radius: 15px;
       font-weight: 900;
     }
